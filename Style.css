@@ -1,0 +1,418 @@
+ * {
+    box-sizing: border-box;
+  }
+  *{
+    outline: 0!important;
+  }
+  div
+  {
+    display: block;
+  }
+  .top
+  {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1040;
+    top: 0;
+    left: 0;
+    background-color: #202020;
+
+  } 
+  .nav
+  {
+    /* height: 90px; */
+    padding: 0.8rem 2rem;
+    background-color: #181818;
+    position: relative;
+    z-index: 3;
+    transition: height 0.3s ease-out,padding 0.3s ease-out;
+     align-items: center;
+  }
+  .nav
+  {
+    display: flex;
+  }
+  ul
+  {
+    
+    height: fit-content;
+    display: flex;
+    padding: 20;
+    margin: 0;
+    font-style: none;
+    list-style: none;
+    text-transform: uppercase;  
+    
+  }
+  li a
+  {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    text-align: left;
+    text-align: right;
+    
+    
+  }
+  .left
+  {
+    display: flex;
+    margin-left: 20px;
+
+  }
+  .right
+  {
+    display: flex;
+    margin-left:300px;
+    
+  }
+
+  html body
+  {
+      margin: 0;
+      font-family: Roboto,Helvetica Neue,Arial;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #202020;
+      text-align: left;
+      background-color: #fff;
+  }
+  .image1
+  {
+    background-image: url('slider_hp_01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    
+
+  }
+  .icons
+  {
+    height: fit-content;
+    display: flex;
+    margin-left: 20px;
+    align-items: center; 
+  }
+  .icon1
+  {
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .icon2
+  {
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .icon3
+  {
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .text1
+  {
+    margin-right: 150px;
+    margin-left: 80px;
+    list-style: none;  
+  }
+  #p1
+  {
+    color: #fff;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 110px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-left: 5px;
+    text-align: left;
+    
+  }
+  .image2
+  {
+    background-image: url('ultimae_coupe_Compositing_4terzi_00.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 60%;
+    float: left;
+  }
+  .image3
+  {
+    background-image: url('family_chooser_tecnica.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+    width:40%;
+    float: right;
+    padding: auto;
+  }
+  #p2
+  {
+    color: #fff;
+    /* font-weight: bold; */
+    /* font-weight: 600; */
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 00px;
+    margin-left: 50px;
+    /* margin-left: 5px; */
+    text-align: left; 
+  }
+  
+  .models
+  {
+    display: flex;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
+  .modelname
+  {
+    height: 300px;
+    width: 200px;
+    margin-left: 50px;
+    font-size: 30px;
+    display: flex;
+  }
+  #p3
+  {
+    color: #fff;
+    font-size: 110px;
+    margin-top: 70px;
+    margin-left: 50px;
+
+  }
+  
+  #p4
+  {padding-right: 100px;
+    margin-right: 200px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 30px;
+    
+  }
+  /* img .image4
+  {
+    margin-top: 0; 
+    margin-bottom: auto;
+    padding-bottom: 0;
+  } */
+  .image5
+  {
+    /* padding-top: 0;
+    margin-top: 0; */
+    background-image: url('urus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  h2
+  {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    font-size: 60px;
+    font-stretch: normal;
+    line-height: 0.97;
+    text-align: left;
+    float: right;
+  
+  }
+  .icon4
+  {
+    color: #fff;
+    width: 100px;
+    height: 5.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .icon5
+  {
+    color: #fff;
+    width: 7px;
+    height: 5.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+  }
+  .footer1
+  {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #181818;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+  }
+  .content
+  {
+    padding: 5rem 4rem 6rem 4rem;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+
+  }
+  .contentcol
+  {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row
+  {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contentcol2
+  {
+    margin-bottom: 3rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .footmenu
+  {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* list-style: none;
+    margin-block-start: 1em; */
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    padding-inline-start: 40px;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 2;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.socialmediacolum
+{
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.socialmedia
+{
+  display: flex;
+  margin-top: 0;
+  /* flex-wrap: wrap;
+  white-space: nowrap;
+  padding-left: 5rem; */
+  
+}
+  .insta
+  {
+    fill: #fff;
+    width: 7px;
+    height: 5.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .fb
+  {
+    fill: #fff;
+    width: 7px;
+    height: 2.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 24px;
+  }
+  .ytube
+  {
+    fill: #fff;
+    width: 7px;
+    height: 2.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 24px;
+  }
+  .tweet
+  {
+    fill: #fff;
+    width: 7px;
+    height: 2.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 24px;
+  }
+  .linkdn
+  {
+    fill: #fff;
+    width: 7px;
+    height: 2.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 24px;
+  }
+  .tiktok
+  {
+    fill: #fff;
+    width: 7px;
+    height: 2.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 24px;
+  }
+  .dischord
+  {
+    fill: #fff;
+    width: 7px;
+    height: 2.5rem;
+   background-color: transparent;
+   border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 24px;
+  }
+  .bottom
+  {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+  }
+  .bottom 
+  {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  }
